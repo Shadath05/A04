@@ -22,6 +22,11 @@ header::after {
     clear: both;
 }
 
+.red-heading {
+    color: #800000; /* dark red */
+}
+
+
 /* Header h2 */
 header h2 {
     font-size: 170%;
@@ -62,4 +67,18 @@ footer p {
 /* Text shadow for 75th */
 .shadow {
     text-shadow: 2px 2px var(--global-color-1);
+}
+
+.speaker {
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+.speaker img {
+    float: left;
+    margin-right: 15px;
+}
+
+.speaker h3 {
+    margin-top: 0;
 }
