@@ -1,0 +1,107 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* BODY */
+body {
+    width: 600px;
+    margin: 0 auto;
+    border: 3px solid #931420;
+    background-color: #fffddc;
+}
+
+/* PAGE BACKGROUND */
+html {
+    background-color: white;
+}
+
+/* HEADER */
+header {
+    border-bottom: 3px solid #931420;
+    background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+    padding: 1.5em 0 2em 0;
+}
+
+header img {
+    float: left;
+    margin-right: 30px;
+}
+
+/* HEADER TEXT */
+header h2 {
+    font-size: 170%;
+    color: #800000;
+}
+
+header h3 {
+    font-size: 130%;
+    font-style: italic;
+}
+
+/* MAIN CONTENT SPACING */
+main {
+    padding: 0 30px;
+}
+
+/* SPEAKER SECTION */
+.speaker {
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+.speaker img {
+    float: left;
+    margin-right: 15px;
+}
+
+.speaker h3 {
+    margin-top: 0;
+}
+
+/* HEADINGS */
+h1 {
+    color: #800000;
+    border-top: 3px solid #931420;
+    border-bottom: 3px solid #931420;
+    padding: 10px 30px;
+    margin-top: 1em;
+}
+
+/* SPECIAL SPEAKER HEADING STYLING (EX 5-2) */
+.speaker-heading {
+    border: 3px double #800000;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px #999;
+    padding: 0.5em;
+    margin-top: 1em;
+    background-color: white;
+    text-align: center;
+}
+
+/* LINKS */
+a:hover, a:focus {
+    font-style: italic;
+}
+
+/* FOOTER */
+footer {
+    background-color: #931420;
+    color: white;
+    padding: 1em;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* BLOCKQUOTE */
+blockquote {
+    font-style: italic;
+}
+
+/* TEXT SHADOW */
+.shadow {
+    text-shadow: 2px 2px #800000;
+}
