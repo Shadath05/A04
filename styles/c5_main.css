@@ -1,107 +1,70 @@
-/* RESET */
-* {
-    margin: 0;
-    padding: 0;
+/* custom property */
+:root {
+	--global-color-1: #800000;
 }
 
-/* BODY */
+/* the styles for the elements */
 body {
-    width: 600px;
-    margin: 0 auto;
-    border: 3px solid #931420;
-    background-color: #fffddc;
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin-left: 10px;
 }
-
-/* PAGE BACKGROUND */
-html {
-    background-color: white;
+a:focus, a:hover {
+	font-style: italic;
 }
-
-/* HEADER */
-header {
-    border-bottom: 3px solid #931420;
-    background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
-    padding: 1.5em 0 2em 0;
-}
-
-header img {
-    float: left;
-    margin-right: 30px;
-}
-
-/* HEADER TEXT */
+/* the styles for the header */
 header h2 {
-    font-size: 170%;
-    color: #800000;
+	font-size: 175%;
+	color: var(--global-color-1);
+	text-indent: 30px;
 }
-
 header h3 {
-    font-size: 130%;
-    font-style: italic;
+	font-size: 130%;
+	font-style: italic;
+	text-indent: 30px;
 }
-
-/* MAIN CONTENT SPACING */
-main {
-    padding: 0 30px;
+header img {
+	float: left;
 }
-
-/* SPEAKER SECTION */
-.speaker {
-    overflow: auto;
-    margin-bottom: 20px;
-}
-
-.speaker img {
-    float: left;
-    margin-right: 15px;
-}
-
-.speaker h3 {
-    margin-top: 0;
-}
-
-/* HEADINGS */
-h1 {
-    color: #800000;
-    border-top: 3px solid #931420;
-    border-bottom: 3px solid #931420;
-    padding: 10px 30px;
-    margin-top: 1em;
-}
-
-/* SPECIAL SPEAKER HEADING STYLING (EX 5-2) */
-.speaker-heading {
-    border: 3px double #800000;
-    border-radius: 15px;
-    box-shadow: 3px 3px 5px #999;
-    padding: 0.5em;
-    margin-top: 1em;
-    background-color: white;
-    text-align: center;
-}
-
-/* LINKS */
-a:hover, a:focus {
-    font-style: italic;
-}
-
-/* FOOTER */
-footer {
-    background-color: #931420;
-    color: white;
-    padding: 1em;
-}
-
-footer p {
-    text-align: center;
-}
-
-/* BLOCKQUOTE */
-blockquote {
-    font-style: italic;
-}
-
-/* TEXT SHADOW */
 .shadow {
-    text-shadow: 2px 2px #800000;
+	text-shadow: 2px 2px 2px var(--global-color-1);
+}
+/* the styles for the main content */
+main {
+	clear: left;
+}
+main h1 {
+	font-size: 150%;
+	padding: .3em 0;
+}
+main h2 {
+	color: var(--global-color-1);
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
+}
+main h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+main img {
+	padding-bottom: 1em;
+}
+main p {
+	padding-bottom: .5em;
+}
+main blockquote {
+	padding: 0 2em;
+	font-style: italic;
+}
+main ul {
+	padding: 0 0 .25em 1.25em;
+}
+main li {
+	padding-bottom: .35em;
+}
+
+/* the styles for the footer */
+footer p {
+	text-align: center;
+	padding: 1em 0;
 }
