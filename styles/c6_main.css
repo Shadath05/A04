@@ -1,0 +1,126 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: white;
+}
+
+/* Body */
+body {
+    width: 800px;
+    margin: 0 auto;
+    border: 3px solid #931420;
+    background-color: #fffddc;
+}
+
+/* Header */
+header {
+    border-bottom: 3px solid #931420;
+    background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+    padding: 1.5em 0 2em 0;
+}
+
+header img {
+    float: left;
+    margin-right: 30px;
+}
+
+header h2 {
+    font-size: 170%;
+    color: #800000;
+}
+
+header h3 {
+    font-size: 130%;
+    font-style: italic;
+}
+
+.shadow {
+    text-shadow: 2px 2px #800000;
+}
+
+/* Sidebar */
+aside {
+    width: 215px;
+    float: right;
+    padding: 0 0 20px 20px;
+}
+
+aside h2,
+aside h3 {
+    color: #800000;
+}
+
+/* Speaker images in sidebar */
+aside img {
+    float: left;
+    margin: 0 10px 20px 0;
+}
+
+/* Optional wrapper for better spacing */
+.speaker {
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+/* Main Section */
+section {
+    width: 525px;
+    float: right;
+    padding: 0 20px 20px 20px;
+}
+
+section h2 {
+    color: #800000;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+/* List */
+ul {
+    margin: 1em 0;
+    padding-left: 20px;
+}
+
+/* Links */
+a:hover,
+a:focus {
+    font-style: italic;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    background-color: #931420;
+    color: white;
+    padding: 1em;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* Speaker of the Month */
+article h1 {
+    font-size: 150%;
+    padding-top: 0.5em;
+    padding-bottom: 0.25em;
+    margin: 0;
+}
+
+article h2 {
+    font-size: 120%;
+    color: #800000;
+    padding: 0.5em 0;
+}
+
+article img {
+    float: right;
+    margin: 10px 0 10px 10px;
+    border: 1px solid black;
+}
