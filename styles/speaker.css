@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: white;
+}
+
+body {
+    width: 800px;
+    margin: 0 auto;
+    border: 3px solid #931420;
+    background-color: #fffddc;
+}
+
+header {
+    border-bottom: 3px solid #931420;
+    background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+    padding: 1.5em 0 2em 0;
+}
+
+header img {
+    float: left;
+    margin-right: 30px;
+}
+
+header h2 {
+    font-size: 170%;
+    color: #800000;
+}
+
+header h3 {
+    font-size: 130%;
+    font-style: italic;
+}
+
+.shadow {
+    text-shadow: 2px 2px #800000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul {
+    display: flex;
+    background-color: #800000;
+}
+
+nav > ul > li {
+    width: 20%;
+    text-align: center;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #a00000;
+}
+
+.current a {
+    color: rgb(255, 255, 255);
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #800000;
+    width: 100%;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    float: none;
+    width: 100%;
+}
+
+nav::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+section {
+    padding: 20px;
+}
+
+article h1 {
+    font-size: 150%;
+    padding-top: 0.5em;
+    padding-bottom: 0.25em;
+    margin: 0;
+}
+
+article h2 {
+    font-size: 120%;
+    color: #800000;
+    padding: 0.5em 0;
+}
+
+article img {
+    float: right;
+    margin: 10px 0 10px 10px;
+    border: 1px solid black;
+}
+
+footer {
+    clear: both;
+    background-color: #931420;
+    color: white;
+    padding: 1em;
+}
+
+footer p {
+    text-align: center;
+}
